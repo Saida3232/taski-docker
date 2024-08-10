@@ -6,5 +6,5 @@ class Task(models.Model):
     description = models.TextField()
     completed = models.BooleanField(default=False)
 
-    def _str_(self):
+    def _str_(self):#htktkkt
         return self.title
