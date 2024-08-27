@@ -1,5 +1,5 @@
 # taski-docker
-
+ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 пример env 
 # .env
 POSTGRES_USER=django_user
