@@ -13,3 +13,8 @@ class TaskView(viewsets.ModelViewSet):
         serializer = self.get_serializer(self.get_object())
         super().destroy(*args, **kwargs)
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+
+"""
+скажи мен правдуууууууууууууууу.
+"""
