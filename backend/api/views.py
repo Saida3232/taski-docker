@@ -18,3 +18,6 @@ class TaskView(viewsets.ModelViewSet):
 class TaskBbiew(viewsets.ReadOnlyModelViewSet):
     serializer_class = TaskSerializer
     queryset = Task.objects.filter(name='nn')
+
+    def create(self, request):
+        pass
